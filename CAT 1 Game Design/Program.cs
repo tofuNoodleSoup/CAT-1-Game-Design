@@ -1,6 +1,44 @@
-using System;namespace testingforcat{    class Program    {        static void Main(string[] args)        {            gameTitle();        }        public static void gameTitle()        {            string yourName;            Console.WriteLine("(in this game, click any key to continue!)");            Console.ReadKey(true);            Console.WriteLine("(yeah, just like that!)");            Console.ReadKey(true);            Console.Clear();            Console.WriteLine("(sometimes you will be asked to answer things, so type it in and then press enter.)");            Console.WriteLine("What's your name?");            yourName = Console.ReadLine();            Console.WriteLine("Hello " + yourName + "! (and yeah just like that!)");            Console.ReadKey(true);            Console.WriteLine("(have fun!)");            Console.ReadKey(true);            Console.Clear();            first();        }        public static void first()        {
+using System;
 
-            string choice;
+namespace testingforcat
+            
+{    
+            
+            class Program 
+                        
+            {        
+                        
+                        static void Main(string[] args)    
+                                    
+                        {            
+                                    
+                                    gameTitle();     
+                                    
+                        }      
+                        
+                        public static void gameTitle()   
+                                    
+                        {          
+                                    
+                                    string yourName;            
+                                    Console.WriteLine("(in this game, click any key to continue!)");            
+                                    Console.ReadKey(true);            
+                                    Console.WriteLine("(yeah, just like that!)");            
+                                    Console.ReadKey(true);            
+                                    Console.Clear();            
+                                    Console.WriteLine("(sometimes you will be asked to answer things, so type it in and then press enter.)");            
+                                    Console.WriteLine("What's your name?");            
+                                    yourName = Console.ReadLine();            
+                                    Console.WriteLine("Hello " + yourName + "! (and yeah just like that!)");            
+                                    Console.ReadKey(true);            
+                                    Console.WriteLine("(have fun!)");            
+                                    Console.ReadKey(true);           
+                                    Console.Clear();           
+                                    first();
+                        }       
+                        public static void first()      
+                        {
+                                     string choice;
             Console.WriteLine("A fruity breeze saunters through the field. The sun is blooming in the sky and " +
                "soft clouds beam down at you.");
             Console.ReadKey(true);
@@ -193,3 +231,6 @@ using System;namespace testingforcat{    class Program    {        static void M
             }
            
         }        }}
+
+
+           
