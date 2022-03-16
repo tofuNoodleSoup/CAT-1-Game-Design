@@ -203,11 +203,34 @@ namespace testingforcat
             Console.Clear();
             Console.WriteLine("You win");
             Console.ReadKey(true);
-            Console.WriteLine("You get turned into a whale.");
-        }        public static void option1b2()
-        {
+            Console.WriteLine("A wizard turned you into a whale.");
+            Console.WriteLine("Is this awesome? (Y/N)");
+                                    {
+                                                case "Y":
+                                                case "yes":
+                                                {
+                                                            Console.WriteLine("Congrats, that was a test. You have truly won a life of peace and prosperity.");
+                                                            Console.Readkey(true);
+                                                            Console.WriteLine("Lastly, don't eat strange berries. I'm sure you are already aware of the consequences.");
+                                                }
+                                                
+                                                case "N":
+                                                case "no":
+                                                {
+                                                            Console.WriteLine("You have failed, who doesn't want to be a whale?");
+                                                            Console.Readkey(true);
+                                                            Console.WriteLine("You live a life of sadness and regret, constantly thinking of swimming and freedom");
+                                                }
+                                    }
+        }        
+                                    public static void option1b2()
+        
+            {
 
-        }        public static void gameEnd()        {
+       
+            }        
+                                    public static void gameEnd()        
+            {
             string playAgain;
             Console.WriteLine("play again?");
             playAgain = Console.ReadLine().ToLower();
